@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* bagian nav */
+.navbartext {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.navbartext img {
+  margin-top: -1rem;
+}
+
+.navbartext1 {
+  margin-left: 4.05rem;
+  margin-top: -1.6rem;
+  font-size: 10px;
+}
+
+.button {
+  background-color: coral;
+  height: 30px;
+  width: fit-content;
+  color: #fff;
+  padding-bottom: 8px;
+  font-size: 14px;
+  display: block;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.bg-dark-blue {
+  background-color: #1f305e;
+}
+
+/* hero */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/bodyimg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.texthero {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.p-hero {
+  color: #fff;
+  font-weight: 500;
+}
+
+.button-service {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  border-color: coral;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.hero2 {
+  margin-top: -6.5rem;
+}
+
+.kotakbg {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+.number {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: underline coral;
+}
+
+.project {
+  color: #fff;
+  font-size: 15px;
+  margin-left: -1.5rem;
+  padding-top: 0.4rem;
+}
+
+.project3 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: -2rem;
+  padding-top: 0.4rem;
+}
+
+.project1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: -0.7rem;
+  padding-top: 0.4rem;
+}
+
+.project2 {
+  color: #fff;
+  font-size: 15px;
+  margin-right: 5.7rem;
+  padding-top: 0.4rem;
+}
+
+.number span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.clients {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 0.5rem;
+}
+
+.number-project-clients {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+}
+
+.number-project-clients:hover .number,
+.number-project-clients:hover .number span {
+  text-decoration-color: black;
+}
+
+.number-project-clients .number,
+.number-project-clients .number span {
+  text-decoration-color: coral;
+  text-decoration-line: underline;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.number-project-clients:hover {
+  background-color: coral;
+}
+
+.kotakbg .col-3:hover {
+  background-color: coral;
+  border-radius: 10px;
+}
+
+/* Bagian building legacy */
+.legacy {
+  margin-top: 5rem;
+}
+
+.buildlegacy {
+  padding-left: 0.1rem;
+  font-weight: 600;
+  color: coral;
+}
+
+.kotaklegacy {
+  margin-top: 2rem;
+  height: 200px;
+  color: black;
+  background: #d3d3d3;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.mglegacy {
+  margin-top: 20px;
+}
+
+.mglegacy2 {
+  margin-top: 12px;
+}
+
+.texth5 {
+  color: darkblue;
+}
+
+.p-legacy {
+  font-size: 10px;
+}
+
+.bi-lg {
+  margin-top: -0.6rem;
+  font-size: 1.7rem;
+  color: darkblue;
+}
+
+.kotaklegacy .col-3 p {
+  display: none;
+}
+
+.kotaklegacy .col-3 i {
+  display: none;
+}
+
+.kotaklegacy .col-3:hover i {
+  display: block;
+}
+
+.kotaklegacy .col-3:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.kotaklegacy .col-3:hover .texth5,
+.kotaklegacy .col-3:hover p {
+  display: block;
+}
+
+/* after legacy */
+.afterlegacy {
+  margin-top: 5rem;
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/afterheroimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aflegacy {
+  color: white;
+  margin-left: 4rem;
+}
+
+.aflegacy span {
+  color: darkblue;
+  font-weight: 700;
+}
+
+/* we are section */
+.weare {
+  margin-top: 5rem;
+}
+
+.btn-weare {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  border-color: coral;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.textweare {
+  margin-top: 4rem;
+}
+
+.weare-p {
+  padding-left: -0.1rem;
+  font-weight: 600;
+  color: coral;
+}
+
+/* legacy 2 */
+.legacy22 {
+  margin-top: 5rem;
+}
+
+.legacy2 {
+  margin-top: 5rem;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/sesibuild.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.legacy2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 128, 0.4);
+}
+
+.p-legacy2 {
+  color: white;
+}
+
+.legacytext {
+  z-index: 3;
+}
+
+.blegacy2 {
+  padding-left: 0.1rem;
+  font-weight: 600;
+  color: coral;
+}
+
+.bh12 {
+  color: white;
+}
+
+.p-legacy21 {
+  margin-top: 0.5rem;
+  color: white;
+  font-size: 20px;
+}
+
+/* what they say */
+.wts {
+  margin-top: 5rem;
+}
+
+.kotakkomen {
+  border-left-style: solid;
+  border-color: coral;
+  text-align: justify;
+  padding-left: 0.5rem;
+  color: #1f305e;
+  font-weight: 700;
+}
+
+.namaorang {
+  font-weight: 600;
+  color: coral;
+}
+
+.headwts {
+  margin-bottom: 2rem;
+}
+
+.textwts {
+  margin-left: 3.4rem;
+  margin-top: -1.6rem;
+  font-size: 10px;
+  color: #1f305e;
+  font-weight: 500;
+}
+
+/* end section */
+.endsc {
+  margin-top: 5rem;
+  background-color: gainsboro;
+}
+
+.btn-endsc {
+  background-color: coral;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+.end-h2 {
+  margin-top: 6rem;
+}
+
+/* footer */
+.footer {
+  background-color: #1f305e;
+  color: #fff;
+}
+
+.towerimg {
+  border-radius: 10px;
+}
+
+.footertext1 {
+  margin-left: 5.5rem;
+  margin-top: -5rem;
+  font-size: 10px;
+}
+
+.foot2 {
+  margin-top: 4rem;
+}
+
+.kirifoot img {
+  margin-top: -0.6rem;
+}
+
+.kirifoot span {
+  font-weight: 450;
+}
+
+.textcontactsfoot {
+  color: #d3d3d3;
+}
+
+/* responsive */
+/* smartphone */
+@media (max-width: 576px) {
+  
+
+  .texthero {
+    font-size: 3rem;
+  }
+
+  .hero2 {
+    margin-top: -4.5rem;
+  }
+
+  .number {
+    font-size: 18px;
+  }
+
+  .number span {
+    font-size: 12px;
+  }
+
+  .project {
+    font-size: 8px;
+    margin-right: -1.6rem;
+    margin-top: -0.4rem;
+  }
+
+  .project3 {
+    font-size: 8px;
+    margin-right: -1.8rem;
+    margin-top: -0.4rem;
+  }
+
+  .project1 {
+    font-size: 8px;
+    margin-left: -0.4rem;
+    margin-top: -0.4rem;
+  }
+
+  .project2 {
+    font-size: 8px;
+    margin-left: -0.2rem;
+    margin-top: -0.4rem;
+  }
+
+  .clients {
+    font-size: 10px;
+  }
+
+  .texth5 {
+    font-size: 12px;
+  }
+
+  .p-legacy {
+    font-size: 9px;
+  }
+
+  .aflegacy {
+    margin-left: 0;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .legacy2::before {
+    height: 100%;
+    width: 100%;
+  }
+
+  .textweare {
+    margin-top: 0rem;
+  }
+
+  .coninfo {
+    margin-top: 3rem;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .texthero {
+    font-size: 3rem;
+  }
+
+  .hero2 {
+    margin-top: -4.5rem;
+  }
+
+  .number {
+    font-size: 18px;
+  }
+
+  .number span {
+    font-size: 12px;
+  }
+
+  .project {
+    font-size: 8px;
+    margin-right: -1.6rem;
+    margin-top: -0.4rem;
+  }
+
+  .project3 {
+    font-size: 8px;
+    margin-right: -1.8rem;
+    margin-top: -0.4rem;
+  }
+
+  .project1 {
+    font-size: 8px;
+    margin-right: -1rem;
+    margin-top: -0.4rem;
+  }
+
+  .project2 {
+    font-size: 8px;
+    margin-right: 1.5rem;
+    margin-top: -0.4rem;
+  }
+
+  .clients {
+    font-size: 10px;
+  }
+
+  .texth5 {
+    font-size: 12px;
+  }
+
+  .p-legacy {
+    font-size: 9px;
+  }
+
+  .aflegacy {
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .mslegacy {
+    margin-left: 0;
+  }
+
+  .bgbirutipis {
+    width: 99%;
+  }
+
+  .textweare {
+    margin-top: 0rem;
+  }
+
+  .coninfo {
+    margin-top: 3rem;
+  }
+}

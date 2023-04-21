@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap");
+
+body {
+  background-color: gainsboro;
+}
+
+/* navbar */
+.navbartext {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.navbartext img {
+  margin-top: -1rem;
+}
+
+.navbartext1 {
+  margin-left: 4.05rem;
+  margin-top: -1.6rem;
+  font-size: 10px;
+}
+
+.button {
+  background-color: coral;
+  height: 30px;
+  width: fit-content;
+  color: #fff;
+  padding-bottom: 8px;
+  font-size: 14px;
+  display: block;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.bg-dark-blue {
+  background-color: #1f305e;
+}
+
+/* hero section */
+.herosection {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.p-about {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.p-about:hover {
+  color: black;
+}
+
+.p-about2 {
+  font-weight: 500;
+  color: coral;
+  text-decoration: none;
+}
+
+.p-about2:hover {
+  color: black;
+}
+
+/* hero 2 */
+.hero2 {
+  background-color: white;
+}
+
+.imgke1 {
+  border-radius: 10px;
+}
+
+.imgke2 {
+  border-radius: 10px;
+  z-index: 3;
+  margin-left: -5rem;
+  margin-top: -16rem;
+}
+
+.teksplbwh {
+  margin-top: 2rem;
+  border-left-style: solid;
+  border-color: coral;
+  background-color: rgb(255, 127, 80, 0.4);
+  padding-left: 1rem;
+}
+
+.imglogo {
+  background-color: rgb(255, 127, 80, 0.4);
+  border-radius: 80%;
+}
+
+.imglogo:hover {
+  background-color: coral;
+}
+
+/* Meet Team */
+.meet-team {
+  margin-top: 5rem;
+}
+
+.text-p-atbw {
+  border-left-style: solid;
+  border-color: coral;
+  padding-left: 0.5rem;
+}
+
+.text-p-ats {
+  font-weight: 700;
+}
+
+.text-p-bwh {
+  margin-top: -1.2rem;
+}
+
+.bagian-card {
+  border-radius: 10px;
+}
+
+.bagian-card:hover {
+  background-color: coral;
+  border-radius: 10px;
+}
+
+.bagian-card:hover .text-p-atbw {
+  color: white;
+  border-color: white;
+}
+
+.bagian-card:hover .icon-wh {
+  color: white;
+}
+
+/* end section */
+.endsc {
+  margin-top: 5rem;
+  background-color: white;
+}
+
+.btn-endsc {
+  background-color: coral;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+.end-h2 {
+  margin-top: 6rem;
+}
+
+/* footer */
+.footer {
+  background-color: #1f305e;
+  color: #fff;
+}
+
+.towerimg {
+  border-radius: 10px;
+}
+
+.footertext1 {
+  margin-left: 5.5rem;
+  margin-top: -5rem;
+  font-size: 10px;
+}
+
+.foot2 {
+  margin-top: 4rem;
+}
+
+.kirifoot img {
+  margin-top: -0.6rem;
+}
+
+.textfooter1 {
+  font-weight: 450;
+}
+
+.textcontactsfoot {
+  color: #d3d3d3;
+}
+
+/* page service */
+.text-services {
+  background-color: white;
+}
+
+.services2 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.box-services2:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.box-services2:hover .text-at-s2 {
+  text-decoration-line: underline;
+  text-decoration-color: coral;
+}
+
+/* page contact us */
+.atascontact {
+  background-color: white;
+}
+
+.kotakform {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.floating-section {
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contactimg {
+  margin-left: 2.8rem;
+  margin-top: -1.2rem;
+  font-size: 12px;
+}
+
+.bgtest:hover {
+  background-color: rgb(255, 127, 80, 0.4);
+  border-radius: 10px;
+}
+
+.btn-oren {
+  border-radius: 20px;
+  background-color: coral;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-oren:hover {
+  color: black;
+}
+
+/* work page */
+.gridimage {
+  background-color: white;
+}
+
+.imgwork {
+  border-radius: 10px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: coral;
+  opacity: 0;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 0.8;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s ease;
+  color: white;
+  text-align:left;
+  font-weight: 600;
+}
+
+.image-wrapper:hover .hover-text {
+  opacity: 1;
+}
+
+.endscwork {
+  background-color: white;
+}
+
+/* responsive */
+/* smartphone */
+@media (max-width: 576px) {
+  .coninfo {
+    margin-top: 3rem;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .coninfo {
+    margin-top: 3rem;
+  }
+}
